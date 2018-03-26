@@ -1,0 +1,22 @@
+body{
+	background: white;
+	text-align: center;
+}
+.box{
+	width: 1000px;
+}
+
+.boxa{
+	width: 250px;
+	height: 150px;
+	padding :15px;
+	background: red;
+}
+
+.boxb{
+	width: auto;
+	height: 135;
+	margin: 3px 3px 3px 3px;
+	background: yellow;
+	border-radius: 15px 15px 15px 15px;
+}

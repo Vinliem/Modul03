@@ -1,0 +1,36 @@
+.octagon {
+    float: left;
+	width: 250px;
+	height: 160px;
+	background: navy;
+    position: relative;
+    margin:0 auto;
+    }
+    .octagon .text{
+        color: white;
+        padding-top: 15%;
+        margin: 10%;
+        text-align: justify;
+    }
+    .octagon:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-bottom: 25px solid navy;
+        border-left: 25px solid azure;
+        border-right: 25px solid azure;
+        width: 80%;
+        height: 0;
+    }
+    .octagon:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top: 25px solid navy;
+        border-left: 25px solid azure;
+        border-right: 25px solid azure;
+        width: 80%;
+        height: 0;
+    }

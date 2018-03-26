@@ -1,0 +1,18 @@
+.diagram{
+    
+    float: center;
+    margin:5px ;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: blue;
+    background-image: linear-gradient(to right, transparent 50%, #655 0);
+  }
+  .diagram .dig {
+    content: '';
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    transform-origin: left;
+  }
